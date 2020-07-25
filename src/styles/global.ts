@@ -14,7 +14,6 @@ export default createGlobalStyle`
   html {
     font-size: 14px;
     color: ${(p) => p.theme.colors.text};
-    background: ${(p) => p.theme.colors.background};
     font-family: ${(p) => p.theme.fontFamily};
     font-weight: 500;
     -webkit-font-smoothing: antialiased;

@@ -1,10 +1,12 @@
 import React from 'react';
 
-const MainLayout: React.FC = ({ children }) => {
+import { Wrapper } from './styles';
+
+const MainLayout: React.FC = () => {
   return (
-    <div>
-      {children}
-    </div>
+    <Wrapper>
+      LOL
+    </Wrapper>
   )
 }
 

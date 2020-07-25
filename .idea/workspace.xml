@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c95d38f-c2bd-4688-b15d-7de56a2e0639" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/MainLayout/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/global.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/styled.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/themes/dark.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/themes/light.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/MainLayout/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrap-with-provider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/MainLayout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/MainLayout/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/global.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/styled.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styled.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/themes/dark.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/themes/dark.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="L:\Projetos\lucas" />
       <recent name="L:\Projetos\lucas\.cache" />
     </key>
   </component>
@@ -57,6 +60,7 @@
       <workItem from="1595361541531" duration="1184000" />
       <workItem from="1595449358825" duration="714000" />
       <workItem from="1595451300138" duration="4242000" />
+      <workItem from="1595623941337" duration="8517000" />
     </task>
     <servers />
   </component>
@@ -68,5 +72,13 @@
       <screen x="-2560" y="-300" width="2560" height="978" />
     </state>
     <state x="-1477" y="138" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-2560.-300.2560.978@-2560.-300.2560.978" timestamp="1595414806780" />
+    <state x="347" y="256" width="585" height="534" key="find.popup" timestamp="1595703664751">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="347" y="256" width="585" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1595703664751" />
+    <state x="296" y="244" key="run.anything.popup" timestamp="1595700872085">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="296" y="244" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1595700872085" />
   </component>
 </project>

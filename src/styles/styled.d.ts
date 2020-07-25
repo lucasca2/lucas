@@ -6,13 +6,10 @@ declare module 'styled-components' {
     fontFamily: string;
     colors: {
       primary: string;
+      primaryLight: string;
       secondary: string;
-      danger: string;
-      caution: string;
       light: string;
       dark: string;
-      success: string;
-      background: string;
       title: string;
       text: string;
     };
