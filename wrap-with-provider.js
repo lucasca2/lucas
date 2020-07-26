@@ -1,4 +1,5 @@
 import React from "react"
+import 'typeface-poppins';
 import GlobalStyles from "./src/styles/global";
 import { ThemeProvider } from "styled-components";
 

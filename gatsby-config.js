@@ -2,9 +2,9 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Lucas Costa Amaral`,
+    description: `Lucas Costa Amaral`,
+    author: `@lucca`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,7 +24,6 @@ module.exports = {
         components: path.join(__dirname, 'src/components'),
         images: path.join(__dirname, 'src/images'),
         layout: path.join(__dirname, 'src/layout'),
-        'config-styles': path.join(__dirname, 'src/config-styles.js'),
       }
     },
     {
@@ -33,10 +32,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/gatsby-icon.png`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

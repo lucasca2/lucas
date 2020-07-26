@@ -1,13 +1,14 @@
 export default {
   title: 'dark',
-  fontFamily: 'Barlow',
+  fontFamily: 'Poppins',
   colors: {
     dark: '#191919',
     primary: '#222222',
     primaryLight: '#292929',
-    secondary: '#FF647C',
+    secondary: '#F36B50',
     light: '#fff',
     title: '#ffffff',
     text: '#fff',
+    placeholder: '#82848D',
   },
 };

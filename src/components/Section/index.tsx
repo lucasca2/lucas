@@ -1,20 +1,18 @@
 import React from 'react';
 
 import { Wrapper } from './styles';
-import Header from "components/Header"
-
 
 type Props = {
+  color: string;
   children: React.ReactNode;
-};
+}
 
-const MainLayout: React.FC<Props> = ({ children }) => {
+const Section: React.FC<Props> = ({ children, color }) => {
   return (
-    <Wrapper>
-      <Header />
+    <Wrapper color={color}>
       {children}
     </Wrapper>
   )
 }
 
-export default MainLayout;
+export default Section;

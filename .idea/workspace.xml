@@ -2,21 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c95d38f-c2bd-4688-b15d-7de56a2e0639" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/MainLayout/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wrap-with-provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/components/Menu/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/components/Menu/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/components/Title/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/components/Title/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/lucas.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Section/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Section/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TitleAndSubtitle/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TitleAndSubtitle/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Home/SectionExperience/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/MainLayout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/MainLayout/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/global.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/page-2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/using-typescript.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/using-typescript.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/styled.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styled.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/themes/dark.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/themes/dark.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wrap-with-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/wrap-with-provider.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +43,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Header" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Header" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="L:\Projetos\lucas" />
       <recent name="L:\Projetos\lucas\.cache" />
@@ -61,6 +71,7 @@
       <workItem from="1595449358825" duration="714000" />
       <workItem from="1595451300138" duration="4242000" />
       <workItem from="1595623941337" duration="8517000" />
+      <workItem from="1595709245689" duration="10685000" />
     </task>
     <servers />
   </component>

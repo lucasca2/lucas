@@ -12,6 +12,7 @@ declare module 'styled-components' {
       dark: string;
       title: string;
       text: string;
+      placeholder: string;
     };
   }
 }
