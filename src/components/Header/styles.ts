@@ -43,6 +43,10 @@ export const BackgroundImage = styled.div`
     left: 50%;
     transform: translate(-50%, -50%)
   }
+  
+  & img {
+    filter: drop-shadow(-15px 5px 10px rgba(0, 0, 0, 0.25))
+  }
 `
 export const TopHeader = styled.div`
   position: relative;
