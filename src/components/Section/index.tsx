@@ -1,16 +1,14 @@
 import React from 'react';
+import { SectionProps } from './types';
 
-import { Wrapper } from './styles';
+import { Wrapper, Content } from './styles';
 
-type Props = {
-  color: string;
-  children: React.ReactNode;
-}
-
-const Section: React.FC<Props> = ({ children, color }) => {
+const Section: React.FC<SectionProps> = ({ children, color }) => {
   return (
     <Wrapper color={color}>
-      {children}
+      <Content>
+        {children}
+      </Content>
     </Wrapper>
   )
 }

@@ -13,6 +13,8 @@ declare module 'styled-components' {
       title: string;
       text: string;
       placeholder: string;
+      footer: string;
+      footerDark: string;
     };
   }
 }

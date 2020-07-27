@@ -1,4 +1,5 @@
 import React from 'react';
+import { TitleAndSubtitleProps } from './types';
 
 import {
   Wrapper,
@@ -8,25 +9,14 @@ import {
   Link,
 } from './styles';
 
-type Link = {
-  title: string;
-}
-
-type Props = {
-  title: string;
-  subtitle?: string;
-  description?: string;
-  links?: Link[];
-};
-
-const TitleAndSubtitle: React.FC<Props> = ({ title, subtitle, description, links }) => {
+const TitleAndSubtitle: React.FC<TitleAndSubtitleProps> = ({ title, subtitle, align = 'start', description, links }) => {
   function transformText(text: string) {
-    return text.replace('\n', '<br />');
+    return text.replace(/\n/g, '<br />');
   }
 
   return (
-    <Wrapper>
-      <Title>{title}</Title>
+    <Wrapper align={align}>
+      <Title align={align}>{title}</Title>
       {subtitle && (<Subtitle dangerouslySetInnerHTML={{ __html: transformText(subtitle) }} />)}
       {description && (<Description dangerouslySetInnerHTML={{ __html: transformText(description) }} />)}
       {links?.map((link) => (

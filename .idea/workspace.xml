@@ -2,28 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c95d38f-c2bd-4688-b15d-7de56a2e0639" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Header/components/Menu/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/components/Menu/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/components/Title/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/components/Title/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/lucas.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Section/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Section/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TitleAndSubtitle/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TitleAndSubtitle/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Home/SectionExperience/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/components/Menu/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/components/Menu/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/components/Title/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/components/Title/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/lucas.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Section/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TitleAndSubtitle/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/global.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Home/SectionInspirations/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Home/SectionWorks/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TitleAndSubtitle/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TitleAndSubtitle/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TitleAndSubtitle/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TitleAndSubtitle/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/MainLayout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/MainLayout/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/page-2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/using-typescript.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/using-typescript.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/styled.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styled.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/themes/dark.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/themes/dark.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wrap-with-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/wrap-with-provider.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +42,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Header" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/sections/Home" />
+      <recent name="$PROJECT_DIR$/src/components/Section" />
       <recent name="$PROJECT_DIR$/src/components/Header" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -71,7 +73,9 @@
       <workItem from="1595449358825" duration="714000" />
       <workItem from="1595451300138" duration="4242000" />
       <workItem from="1595623941337" duration="8517000" />
-      <workItem from="1595709245689" duration="10685000" />
+      <workItem from="1595709245689" duration="11926000" />
+      <workItem from="1595868826616" duration="446000" />
+      <workItem from="1595873160168" duration="2553000" />
     </task>
     <servers />
   </component>
@@ -87,6 +91,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="347" y="256" width="585" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1595703664751" />
+    <state x="-1630" y="-48" width="700" height="530" key="recent.locations.popup" timestamp="1595866674313">
+      <screen x="-2560" y="-323" width="2560" height="1080" />
+    </state>
+    <state x="-1630" y="-48" width="700" height="530" key="recent.locations.popup/0.0.1440.900/-2560.-323.2560.1080@-2560.-323.2560.1080" timestamp="1595866674313" />
     <state x="296" y="244" key="run.anything.popup" timestamp="1595700872085">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

@@ -10,5 +10,7 @@ export default {
     title: '#ffffff',
     text: '#fff',
     placeholder: '#82848D',
+    footer: '#141414',
+    footerDark: '#0D0D0D',
   },
 };

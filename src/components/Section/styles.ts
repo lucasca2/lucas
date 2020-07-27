@@ -1,10 +1,15 @@
 import styled from 'styled-components';
-
-type WrapperProps = {
-  color: string;
-}
+import { WrapperProps } from './types';
 
 export const Wrapper = styled.section<WrapperProps>`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: ${(p) => p.theme.colors[p.color] };
+`;
+
+export const Content = styled.div`
   padding: 90px;
-  background-color: ${(p) => p.theme.colors[p.color] }
+  width: 100%;
+  max-width: 1300px;
 `;

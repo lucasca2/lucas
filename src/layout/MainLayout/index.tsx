@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Wrapper } from './styles';
 import Header from "components/Header"
+import Footer from "components/Footer";
 
 
 type Props = {
@@ -13,6 +14,7 @@ const MainLayout: React.FC<Props> = ({ children }) => {
     <Wrapper>
       <Header />
       {children}
+      <Footer />
     </Wrapper>
   )
 }
