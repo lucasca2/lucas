@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-
-// @ts-ignore
 import logo from 'images/logo.svg';
 
 

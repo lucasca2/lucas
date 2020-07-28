@@ -27,6 +27,12 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        ssr: true
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
