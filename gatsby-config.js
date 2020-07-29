@@ -29,7 +29,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
-        ssr: true
+        ssr: true,
+        pure: true,
       },
     },
     {
