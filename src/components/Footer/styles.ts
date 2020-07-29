@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import logo from 'images/logo.svg';
 
 
 export const Wrapper = styled.div`
@@ -19,7 +18,7 @@ export const ContentFooter = styled.header`
 `;
 
 export const Logo = styled.img.attrs({
-  src: logo
+  src: '/logo.svg'
 })`
   width: 70px;
 `;

@@ -1,5 +1,4 @@
 import React from "react"
-import 'typeface-poppins';
 import { ThemeProvider } from "styled-components";
 
 // import light from "src/styles/themes/light";
