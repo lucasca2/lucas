@@ -6,6 +6,16 @@ export const Wrapper = styled.div<WrapperProps>`
   flex-direction: column;
   align-items: ${(p) => p.align};
   text-align: ${(p) => p.align};
+  
+  width: 500px;
+  max-width: 100%;
+  
+  & > a {
+    color: ${(p) => p.theme.colors.secondary};
+    font-size: 16px;
+    margin-top: 30px;
+    text-decoration: none;
+  }
 `;
 
 export const Title = styled.h2<WrapperProps>`
@@ -52,13 +62,12 @@ export const Subtitle = styled.p`
   margin: 10px 0;
 `;
 
-export const Description = styled.p`
+export const Description = styled.div`
   font-size: 16px;
+  line-height: 28px;
   color: ${(p) => p.theme.colors.placeholder};
-`;
-
-export const Link = styled.span`
-  color: ${(p) => p.theme.colors.secondary};
-  font-size: 16px;
-  margin-top: 30px;
+  
+  & p:not(:last-child){
+    margin-bottom: 10px;
+  }
 `;

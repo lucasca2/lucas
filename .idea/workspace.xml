@@ -2,16 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c95d38f-c2bd-4688-b15d-7de56a2e0639" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wrap-page-element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contato.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/sobre.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/trabalhos.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/About/SectionHistory/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/About/SectionProfessional/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/components/Menu/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainHeader/components/Menu/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/components/Menu/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainHeader/components/Menu/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/components/Title/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainHeader/components/Title/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/components/Title/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainHeader/components/Title/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainHeader/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/lucas.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainHeader/lucas.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainHeader/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TitleAndSubtitle/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TitleAndSubtitle/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TitleAndSubtitle/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TitleAndSubtitle/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TitleAndSubtitle/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TitleAndSubtitle/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/MainLayout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/MainLayout/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wrap-page-element.js" beforeDir="false" afterPath="$PROJECT_DIR$/wrap-page-element.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wrap-with-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/wrap-with-provider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -33,22 +43,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sections/About" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/sections/About" />
+      <recent name="$PROJECT_DIR$/src/sections" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/layout" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$" />
       <recent name="L:\Projetos\lucas" />
       <recent name="L:\Projetos\lucas\.cache" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/sections/Home" />
-      <recent name="$PROJECT_DIR$/src/components/Section" />
-      <recent name="$PROJECT_DIR$/src/components/Header" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -69,7 +80,12 @@
       <workItem from="1595709245689" duration="11926000" />
       <workItem from="1595868826616" duration="446000" />
       <workItem from="1595873160168" duration="3456000" />
-      <workItem from="1595968017781" duration="2207000" />
+      <workItem from="1595968017781" duration="2618000" />
+      <workItem from="1596224643304" duration="2356000" />
+      <workItem from="1596657745413" duration="1586000" />
+      <workItem from="1596854482732" duration="406000" />
+      <workItem from="1597165598750" duration="8592000" />
+      <workItem from="1597866815256" duration="3220000" />
     </task>
     <servers />
   </component>
@@ -97,5 +113,9 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="296" y="244" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1595700872085" />
+    <state x="-1615" y="-82" width="670" height="676" key="search.everywhere.popup" timestamp="1596738435285">
+      <screen x="-2560" y="-323" width="2560" height="1080" />
+    </state>
+    <state x="-1615" y="-82" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-2560.-323.2560.1080@-2560.-323.2560.1080" timestamp="1596738435285" />
   </component>
 </project>

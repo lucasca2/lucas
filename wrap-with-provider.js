@@ -8,7 +8,7 @@ import dark from "./src/styles/themes/dark";
 export default ({ element }) => {
   return (
     <ThemeProvider theme={dark}>
-      {element}
+        {element}
     </ThemeProvider>
   )
 }

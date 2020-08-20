@@ -1,11 +1,14 @@
 import React from 'react';
 import GlobalStyles from "./src/styles/global";
+import MainLayout from "./src/layout/MainLayout"
 
-export default ({ element }) => {
+export default ({ element, props: { uri } }) => {
   return (
     <>
       <GlobalStyles />
-      {element}
+      <MainLayout>
+        {element}
+      </MainLayout>
     </>
   )
 }

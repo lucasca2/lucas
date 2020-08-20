@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import { TitleAndSubtitleProps } from './types';
 
 import {
@@ -6,7 +7,6 @@ import {
   Title,
   Subtitle,
   Description,
-  Link,
 } from './styles';
 
 const TitleAndSubtitle: React.FC<TitleAndSubtitleProps> = ({ title, subtitle, align = 'start', description, links }) => {
@@ -18,9 +18,13 @@ const TitleAndSubtitle: React.FC<TitleAndSubtitleProps> = ({ title, subtitle, al
     <Wrapper align={align}>
       <Title align={align}>{title}</Title>
       {subtitle && (<Subtitle dangerouslySetInnerHTML={{ __html: transformText(subtitle) }} />)}
-      {description && (<Description dangerouslySetInnerHTML={{ __html: transformText(description) }} />)}
+      {typeof description === 'string' ? (<Description dangerouslySetInnerHTML={{ __html: transformText(description) }} />) : (
+        <Description>
+          {description}
+        </Description>
+      )}
       {links?.map((link) => (
-        <Link>{link.title}</Link>
+        <Link to={link.to}>{link.title}</Link>
       ))}
     </Wrapper>
   )
